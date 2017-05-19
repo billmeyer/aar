@@ -12,7 +12,8 @@ depends          'poise-python'
 depends          'database'
 depends          'mysql2_chef_gem'
 
-issues_url 'https://github.com/chef-cookbooks/something/issues' if respond_to?(:issues_url)
-source_url 'https://github.com/chef-cookbooks/something' if respond_to?(:source_url)
+issues_url 'https://github.com/billmeyer/aar/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/billmeyer/aar' if respond_to?(:source_url)
 chef_version '>= 12.5' if respond_to?(:chef_version)
-supports 'ubuntu', 'raspbian'
+supports 'ubuntu'
+supports 'raspbian'
